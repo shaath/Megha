@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid" duration-ms="37741" started-at="2016-07-11T14:29:33Z" finished-at="2016-07-11T14:30:11Z">
+    <groups>
+    </groups>
+    <test name="on Firefox" duration-ms="20778" started-at="2016-07-11T14:29:33Z" finished-at="2016-07-11T14:29:54Z">
+      <class name="grid.grideg1">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:grid.grideg1@45ae90c9]" name="grid" duration-ms="20669" started-at="2016-07-11T19:59:33Z" finished-at="2016-07-11T19:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.grideg1 -->
+    </test> <!-- on Firefox -->
+    <test name="on chrome" duration-ms="10094" started-at="2016-07-11T14:29:54Z" finished-at="2016-07-11T14:30:04Z">
+      <class name="grid.grideg1">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:grid.grideg1@45828b22]" name="grid" duration-ms="10078" started-at="2016-07-11T19:59:54Z" finished-at="2016-07-11T20:00:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.grideg1 -->
+    </test> <!-- on chrome -->
+    <test name="on ie" duration-ms="6772" started-at="2016-07-11T14:30:04Z" finished-at="2016-07-11T14:30:11Z">
+      <class name="grid.grideg1">
+        <test-method status="PASS" signature="grid(java.lang.String)[pri:0, instance:grid.grideg1@164163e1]" name="grid" duration-ms="6759" started-at="2016-07-11T20:00:04Z" finished-at="2016-07-11T20:00:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.grideg1 -->
+    </test> <!-- on ie -->
+  </suite> <!-- Grid -->
+</testng-results>
